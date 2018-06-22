@@ -17,7 +17,7 @@ def recipe_ingredients(perfect_10_recipe)
 end
 
 def amount_of_chocolate_chips(perfect_10_recipe)
-  return perfect_10_recipe
+  return perfect_10_recipe.each 
 end
 
 def ingredients_and_amounts(perfect_10_recipe)
